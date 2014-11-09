@@ -1,0 +1,29 @@
+{
+  "name": "simpleRent",
+  "description": "Property management app",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "",
+      "email": "",
+      "web": ""
+    }
+  ],
+  "dependencies": {},
+  "homepage": "http://simplerent.co",
+  "devDependencies": {
+    "coffeeify": "^0.7.0",
+    "express": "~3.4.8",
+    "gulp": "~3.5.0",
+    "gulp-coffee": "^2.2.0",
+    "gulp-coffeeify": "^0.1.2",
+    "gulp-concat": "~2.1.7",
+    "gulp-jade": "~0.3.0",
+    "gulp-livereload": "~0.2.0",
+    "gulp-stylus": "0.0.11",
+    "gulp-uglify": "~0.1.0",
+    "gulp-util": "~2.2.12",
+    "marked": "~0.3.0",
+    "tiny-lr": "0.0.5"
+  }
+}

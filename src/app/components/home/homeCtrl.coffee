@@ -1,6 +1,6 @@
 module.exports = (home)->
   home.controller('homeCtrl', ($scope)->
-    console.log('test5')
+    console.log('homeCtrl')
 
   )
 

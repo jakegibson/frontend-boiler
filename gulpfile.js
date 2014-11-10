@@ -9,7 +9,6 @@ var gulp        = require('gulp'),
     tinylr      = require('tiny-lr'),
     express     = require('express'),
     app         = express(),
-    marked      = require('marked'), // For :markdown filter in jade
     path        = require('path'),
     server      = tinylr();
  

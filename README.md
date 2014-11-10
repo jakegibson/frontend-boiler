@@ -8,7 +8,7 @@ http://scotch.io/tutorials/javascript/angularjs-best-practices-directory-structu
 With a few small changes.  Most notable being how the index.coffee file is used in each component.  This file creates the angular module for the component, requires any controllers, services, etc and exports the module.
 
 ###Install
-clone
+clone  
 cd frontend-boiler  
 npm install  
 gulp  

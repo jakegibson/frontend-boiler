@@ -2,7 +2,7 @@
 (function() {
   var home;
 
-  home = angular.module('simple.home', []);
+  home = angular.module('home', []);
 
   require('./homeCtrl')(home);
 
@@ -14,7 +14,7 @@
 (function() {
   module.exports = function(home) {
     return home.controller('homeCtrl', function($scope) {
-      return console.log('test');
+      return console.log('test4');
     });
   };
 

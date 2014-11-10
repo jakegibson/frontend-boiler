@@ -1,4 +1,4 @@
-home = angular.module('simple.home', [])
+home = angular.module('home', [])
 
 require('./homeCtrl')(home)
 

@@ -2,6 +2,7 @@ var gulp        = require('gulp'),
     gutil       = require('gulp-util'),
     uglify      = require('gulp-uglify'),
     jade        = require('gulp-jade'),
+    sass        = require('gulp-sass'),
     coffeeify    = require('gulp-coffeeify'),
     concat      = require('gulp-concat'),
     livereload  = require('gulp-livereload'),
@@ -14,15 +15,13 @@ var gulp        = require('gulp'),
  
  
 // --- Basic Tasks ---
-/*
-gulp.task('css', function() {
-  return gulp.src('src/assets/stylesheets/*.styl')
-    .pipe( stylus({ set: ['compress']} ) )
-    .pipe( gulp.dest('dist/assets/stylesheets/') )
-    .pipe( livereload( server ) );
- 
+gulp.task('sass', function () {
+    gulp.src('./src/app/assets/css/app.scss')
+        .pipe(sass())
+        .pipe(gulp.dest('./dist/app/assets/css/'))
+        .pipe(livereload( server ));
 });
-*/ 
+
 gulp.task('coffee', function() {
   return gulp.src('src/**/*.coffee')
     .pipe( coffeeify() ) 
@@ -50,13 +49,13 @@ gulp.task('watch', function () {
   server.listen(35729, function (err) {
     if (err) return console.log(err);
   });
-//  gulp.watch('src/assets/stylesheets/*.styl',['css']);
+  gulp.watch('src/assets/css/**/*.scss',['sass']);
  
-//  gulp.watch('src/assets/js/*.js',['js']);
+  gulp.watch('src/**/*.coffee',['coffee']);
  
   gulp.watch('./src/**/*.jade',['templates']);
       
 });
  
 // Default Task
-gulp.task('default', ['coffee','templates','express','watch']);
+gulp.task('default', ['sass','coffee','templates','express','watch']);

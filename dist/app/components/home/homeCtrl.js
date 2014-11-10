@@ -2,7 +2,7 @@
 (function() {
   module.exports = function(home) {
     return home.controller('homeCtrl', function($scope) {
-      return console.log('test');
+      return console.log('test4');
     });
   };
 

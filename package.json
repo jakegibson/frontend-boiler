@@ -20,6 +20,7 @@
     "gulp-concat": "~2.1.7",
     "gulp-jade": "~0.3.0",
     "gulp-livereload": "~0.2.0",
+    "gulp-sass": "^1.1.0",
     "gulp-stylus": "0.0.11",
     "gulp-uglify": "~0.1.0",
     "gulp-util": "~2.2.12",

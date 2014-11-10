@@ -9,10 +9,10 @@ With a few small changes.  Most notable being how the index.coffee file is used 
 
 ###Install
 clone
-cd frontend-boiler
-npm install
-gulp
-go to localhost:1338
+cd frontend-boiler  
+npm install  
+gulp  
+go to localhost:1338  
 edit files, see autoreload in action
 
 Credits:

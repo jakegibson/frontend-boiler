@@ -14,7 +14,7 @@
 (function() {
   module.exports = function(home) {
     return home.controller('homeCtrl', function($scope) {
-      return console.log('test4');
+      return console.log('test5');
     });
   };
 

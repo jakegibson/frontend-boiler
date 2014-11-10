@@ -40,8 +40,8 @@ gulp.task('templates', function() {
 gulp.task('express', function() {
   app.use(require('connect-livereload')());
   app.use(express.static(path.resolve('./dist')));
-  app.listen(1337);
-  gutil.log('Listening on port: 1337');
+  app.listen(1338);
+  gutil.log('Listening on port: 1338');
 });
  
 gulp.task('watch', function () {

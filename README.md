@@ -7,7 +7,7 @@ Coffee, Sass, and Jade files are watched to enable livereload on save.  Angular 
 http://scotch.io/tutorials/javascript/angularjs-best-practices-directory-structure#a-better-structure-and-foundation
 With a few small changes.  Most notable being how the index.coffee file is used in each component.  This file creates the angular module for the component, requires any controllers, services, etc and exports the module.
 
-###Install
+###Install  (Yeoman generator coming soon)
 clone  
 cd frontend-boiler  
 npm install  

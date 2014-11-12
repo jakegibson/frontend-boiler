@@ -15,6 +15,9 @@ gulp
 go to localhost:1338  
 edit files, see autoreload in action
 
+####TODO
+package for bower
+
 Credits:
 Livereload portion of gulpfile https://gist.github.com/yhsiang/8664407
 Some angular structure concepts http://scotch.io/tutorials/javascript/angularjs-best-practices-directory-structure#a-better-structure-and-foundation

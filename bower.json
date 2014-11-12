@@ -1,0 +1,33 @@
+{
+  "name": "frontend-boiler",
+  "version": "0.0.2",
+  "authors": [
+    "Jake Gibson <jake@j3.io>"
+  ],
+  "description": "Angular seed configured for large apps with  Coffeescript, Jade, and Gulp",
+  "main": "src",
+  "keywords": [
+    "angular",
+    "coffeescript",
+    "jade",
+    "gulp",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/j3dev/frontend-boiler",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist",
+
+  ],
+  "dependencies": {
+
+  },
+  "scripts" : {
+    "postinstall": ""
+  }
+}

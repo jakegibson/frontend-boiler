@@ -15,9 +15,9 @@ var gulp        = require('gulp'),
  
 // --- Basic Tasks ---
 gulp.task('sass', function () {
-    gulp.src('./src/app/assets/css/app.scss')
+    gulp.src('./src/app/assets/css/foundation.scss')
         .pipe(sass())
-        .pipe(gulp.dest('./dist/app/assets/css/'))
+        .pipe(gulp.dest('./dist/app/assets/css/app.css'))
         .pipe(livereload( server ));
 });
 

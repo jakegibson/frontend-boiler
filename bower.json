@@ -25,9 +25,9 @@
 
   ],
   "dependencies": {
-
+    "foundation": "~5.4.7"
   },
   "scripts" : {
-    "postinstall": ""
+    "postinstall": "mv bower_components/foundation/scss bower_components/frontend-boiler/src/app/assets/css; mv bower_components/frontend-boiler ./; rm -rf bower_components"
   }
 }

@@ -8,19 +8,19 @@ http://scotch.io/tutorials/javascript/angularjs-best-practices-directory-structu
 With a few small changes.  Most notable being how the index.coffee file is used in each component.  This file creates the angular module for the component, requires any controllers, services, etc and exports the module.
 
 ###Install  
-clone  
-cd frontend-boiler  
-npm install  
-gulp  
-go to localhost:1338  
-edit files, see autoreload in action
+    clone  
+    cd frontend-boiler    
+    npm install  
+    gulp  
+    go to localhost:1338  
+    edit files, see autoreload in action
 
 ### Yo
-   npm install -g generator-frontend-boiler
-   yo frontend-boiler [appName]
-   cd appName
-   gulp
-   localhost:1338
+    npm install -g generator-frontend-boiler  
+    yo frontend-boiler [appName]  
+    cd appName  
+    gulp  
+    localhost:1338  
 
 
 ####TODO

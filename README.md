@@ -7,13 +7,21 @@ Coffee, Sass, and Jade files are watched to enable livereload on save.  Angular 
 http://scotch.io/tutorials/javascript/angularjs-best-practices-directory-structure#a-better-structure-and-foundation
 With a few small changes.  Most notable being how the index.coffee file is used in each component.  This file creates the angular module for the component, requires any controllers, services, etc and exports the module.
 
-###Install  (Yeoman generator coming soon)
+###Install  
 clone  
 cd frontend-boiler  
 npm install  
 gulp  
 go to localhost:1338  
 edit files, see autoreload in action
+
+### Yo
+   npm install -g generator-frontend-boiler
+   yo frontend-boiler [appName]
+   cd appName
+   gulp
+   localhost:1338
+
 
 ####TODO
 package for bower
